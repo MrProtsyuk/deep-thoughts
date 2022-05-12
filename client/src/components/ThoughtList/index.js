@@ -8,6 +8,7 @@ const ThoughtList = ({ thoughts, title }) => {
     }
      const { id: thoughtId } = useParams();
      console.log(thoughtId);
+     
     return (
         <div>
             <h3>{title}</h3>
